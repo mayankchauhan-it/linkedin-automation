@@ -50,7 +50,7 @@ def find(search_name):
 
 
     password_field = driver.find_element(By.ID, "password")
-    password_field.send_keys(credentials.passowrd)
+    password_field.send_keys(credentials.password)
     time.sleep(3)
 
     submit_button = driver.find_element(By.CLASS_NAME, "login__form_action_container ")
